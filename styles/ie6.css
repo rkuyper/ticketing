@@ -1,0 +1,17 @@
+div#rightbar img {
+	behavior: url(./scripts/iepngfix.htc);
+}
+
+
+div#navigation a {
+	width: 130px;
+}
+
+div#main {
+	width: 660px;
+}
+
+div#rightbar {
+	margin-left: 660px;
+	left: -4px;
+}

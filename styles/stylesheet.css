@@ -1,0 +1,300 @@
+body {
+	font-family: "Trebuchet MS",sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	text-align: center;
+	background-color: #ef4136;
+}
+
+img {
+	border: none;
+	width: 50%;
+}
+img.thumbnail {
+	width: 100px;
+	margin: 3px;
+}
+
+h1 {
+	color: #ef4136;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+h2 {
+	color: #ef4136;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 2em;
+	margin-bottom: -2px;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+h2 a {
+	color: #ef4136;
+	font-size: 12px;
+	font-weight: bold;
+}
+	
+
+a:hover {
+	color: #ef4136;
+	text-decoration: underline;
+}
+
+a.button
+	{
+	text-align: center;
+	border-right: 1px solid black;
+	white-space:nowrap;
+	margin: 0;
+	float: left;
+	padding: 0.3em 15px 0px 15px;
+	font-size: 0.96em;
+	height: 1.7em;
+	}
+
+a.button:link, a.button:visited, a.button:active, a.button	/* menu at rest */
+	{
+	color: white;
+	background-color: #5a1e1e;
+	text-decoration:none;
+	}
+	
+a.button:hover	/* menu at mouse-over  */
+	{
+	color: #5a1e1e;
+	background-color: white;
+	text-decoration:none;
+	}	
+	
+.newstime {
+	font-size: 0.9em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.commentslink {
+	font-size: 0.9em;
+}
+	
+
+div#container {
+	position: relative;
+	background-color: white;
+	margin-top: 45px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+div#container2 {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding: 0px;
+	width:958px;
+	text-align: left;
+}
+
+div#topright {
+	top: -2em;
+	position: relative;
+	float: right;
+	right: 10px;
+	height: 2em;
+	background-color: #5a1e1e;
+	color: white;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	padding: 0px;
+	margin-bottom: -2em;
+	margin-top: -1px;
+}
+	
+div#banner {
+	position: relative;
+	width: 958px;
+}
+
+div#banner img {
+	width: 958px;
+}
+
+div#divider2 {
+	background-color: #5a1e1e;
+	width: 958px;
+	height: 2em;
+	border-top: 1px solid black;
+}
+
+#divider2 a.button:hover
+{
+	background-color: #ef4136;
+	color: black;
+}
+
+
+div#divider {
+	position: relative;
+	top: -2px;
+	background-color: #ef4136;
+	width: 958px;
+	height: 5px;
+	padding: 0px;
+	margin: 0px;
+	line-height: 0px;
+}
+
+div#divider p {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#main {
+	float: left;
+	width: 645px;
+	border-right: 1px solid black;
+	padding: 10px;
+	font-size: 12px;
+}
+
+div#rightbar {
+	position: relative;
+	left: -1px;
+	margin-left: 666px;
+	width: 292px;
+	text-align: center;
+	border-left: 1px solid black;
+	padding-bottom: 301px;
+}
+
+img#mascottes {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	margin-top: -175px;
+	height: 387px;
+	width: 283px;
+}
+
+div#navigation {
+	display: none;
+	margin-left: 56px;
+	position: relative;
+	top: 0px;
+	font-size: 12px;
+	text-align: left;
+	border: 1px solid black;
+	width: 160px;
+	padding: 10px;
+}
+
+div#navigation a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 4px 15px 4px 15px;
+	margin: 0px;
+	background-color: #5a1e1e;
+	border: 1px solid black;
+	border-top: none;
+	width: 130px;
+}
+
+.submenu {
+	border-top: 1px solid black;
+}
+
+div#navigation a:hover	/* menu at mouse-over  */
+	{
+	color: #5a1e1e;
+	background-color: white;
+	text-decoration:none;
+	}
+
+
+div#bottomright {
+	position: absolute;
+	width: 272px;
+	bottom: 20px;
+	right: 0px;
+	padding: 10px;
+	font-family: "Trebuchet MS",sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+div#bottomright img {
+	margin-left: 46px;
+	margin-right: 46px;
+	width: 180px;
+}
+
+div#stretch {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+div#bottom {
+	clear: both;
+	background-color: #ef4136;
+	height: 45px;
+}
+
+div#footer {
+	width: 960px;
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 10px;
+	font-size: 11px;
+	padding-top: 6px;
+	color: white;
+	background-color: #5a1e1e;
+	height: 19px;
+}
+
+div#footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.invalid {
+	color: red;
+}
+.valid {
+	color: green;
+}
+div#rightstrip {
+	width: 50%;
+	float: right;
+}
+div#leftstrip {
+	width: 50%;
+	float: left;
+}
+
+div.extraticket {
+	display: none;
+}
+
+ul#faq li {
+	margin-bottom: 1em;
+}
+ul#dealerlist li {
+	margin-bottom: 1em;
+}

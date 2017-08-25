@@ -1,0 +1,5 @@
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile /usr/home/deb8401/.htpasswd 
+AuthGroupFile /dev/null 
+require valid-user

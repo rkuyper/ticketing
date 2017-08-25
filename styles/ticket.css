@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+	font-family: "Trebuchet MS",sans-serif;
+}
+.ticketlogo {
+	width: 10%;
+	float: right;
+}
+h1 {
+	font-size: 1.3em;
+	margin-top: 0px;
+	font-weight: normal;
+	clear: right;
+}
+#smallprint {
+	font-size: 0.5em;
+	font-family: 'Verdana';
+}
+
+.barcode {
+	width: 7cm;
+}
+
+div.ticket {
+	width: 160mm;
+	height: 120mm;
+}
+
+div.ticketbreek {
+	width: 160mm;
+	height: 120mm;
+	page-break-before: always;
+}

@@ -1,0 +1,17 @@
+a.button {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+	
+div#main {
+	width: 641px;
+}
+
+div#rightbar {
+	margin-left: 662px;
+}
+
+div#navigation {
+	margin-left: 10px;
+	width: 160px;
+}
